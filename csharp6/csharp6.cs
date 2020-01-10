@@ -49,7 +49,7 @@ class CSharp6Sample
 
         Console.WriteLine($"The last word is {words[^1]}{words[^1]}");
 
-        string[] quickBrownFox = words[1..^0];
+        string[] quickBrownFox = words[1.. ^ 0];
         foreach (var word in quickBrownFox)
             Console.Write($"< {word} >");
 
