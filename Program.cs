@@ -1,8 +1,5 @@
-﻿using System;
-using Basis;
-using Attr;
-using ExceptionTest;
-using CSharp6;
+﻿using Async;
+using System;
 
 namespace Sample
 {
@@ -28,9 +25,9 @@ namespace Sample
             //var s6 = new ExceptionSample();
             //s6.Run();
             
-            var s7 = new CSharp6Sample();
-            s7.Run();
-        
+            AsyncSample.Run();
+
+            Console.ReadKey();
         }
     }
 }
